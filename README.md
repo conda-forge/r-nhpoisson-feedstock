@@ -1,11 +1,11 @@
-About r-nhpoisson
-=================
+About r-nhpoisson-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nhpoisson-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=NHPoisson
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nhpoisson-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for modelling, ML estimation, validation analysis and simulation of non homogeneous Poisson processes in time.
 

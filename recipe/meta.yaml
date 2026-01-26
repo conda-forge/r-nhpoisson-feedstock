@@ -1,4 +1,4 @@
-{% set version = '3.3' %}
+{% set version = "3.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/NHPoisson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/NHPoisson/NHPoisson_{{ version }}.tar.gz
-  sha256: 4d452b03d13ba6f32f456a1a55a555d1a4e5c9b6559ef43d87617636592ad6c4
+  sha256: 35e7db2ddfea12bd076f15f14b8d799cecae3103082a9ae0be4d2312af51c23d
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=NHPoisson
   license: GPL-2.0-only
-  summary: Tools for modelling, ML estimation, validation analysis and simulation of non homogeneous
-    Poisson processes in time.
+  summary: Tools for modelling, ML estimation, validation analysis and simulation of non homogeneous Poisson processes in time.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
